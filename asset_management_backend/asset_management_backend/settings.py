@@ -24,8 +24,10 @@ SECRET_KEY = 'django-insecure-j%w2&5u@d5p0-6!9s@s-!f=g&8=*9vaquggb&p=1^60dkq^4p$
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'asset-management-system-feb8.onrender.com',
+    # ...other hosts if needed
+]
 
 
 # Application definition
@@ -130,3 +132,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React/Vite dev server
 ]
+
